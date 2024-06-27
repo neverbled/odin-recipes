@@ -1,4 +1,4 @@
-h1 {
+.odin-recipes {
     text-align: center;
     font-size: 50px;
 }
@@ -65,4 +65,58 @@ body {
     margin: auto;
     padding: 18px;
     border-radius: 20px;
+}
+/* This message defines the border of the lasagna HMTL */
+
+.body-background {
+    background-color: burlywood;
+    margin: 0;
+    padding: 0;
+}
+
+.img-l-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 50vh;
+    text-align: center;
+}
+
+.img-1 {
+    order: 1;
+    margin-left: 20px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: rgba(195, 61, 61, 0.2)
+}
+
+.img-2 {
+    order: 3;
+    margin-right: auto;
+    border-style: outset;
+    border-width: 5px;
+    border-color: rgba(195, 61, 61, 0.2)
+}
+
+.img-3 {
+    order: 2;
+    margin: auto;
+    border-style: outset;
+    border-width: 5px;
+    border-color: rgba(195, 61, 61, 0.2)
+}
+
+.l-desc, .ingredients-l, .steps-l {
+    display:table;
+    border-style: outset;
+    border-width: 5px;
+    border-color: gold;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 20px auto;
+}
+
+.finished {
+    text-align: center;
 }
