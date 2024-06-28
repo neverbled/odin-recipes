@@ -66,7 +66,7 @@ body {
     padding: 18px;
     border-radius: 20px;
 }
-/* This message defines the border of the lasagna HMTL */
+/* This message defines the border of the lasagna CSS */
 
 .body-background {
     background-color: burlywood;
@@ -119,4 +119,9 @@ body {
 
 .finished {
     text-align: center;
+}
+
+/* This message defines the border of the mac n cheese CSS */
+.mac-header {
+    background-color: hsl(17, 100%, 74%);
 }
