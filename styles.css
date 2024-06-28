@@ -122,6 +122,51 @@ body {
 }
 
 /* This message defines the border of the mac n cheese CSS */
+*{
+    box-sizing: border-box;
+}
+.mac-body {
+    margin: 0;
+}
 .mac-header {
     background-color: hsl(17, 100%, 74%);
+    text-align: center;
+    padding: 25px;
+}
+
+.nav-bar {
+    background-color: hsl(34, 97%, 53%);
+    height: 50px;
+}
+.description-m {
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+.ingredients-m {
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+.steps-m {
+    width: 60%;
+    float: left;
+    padding: 10px;
+}
+.footer-mac {
+    display: block;
+    clear: both;
+    background-color: hsl(17, 100%, 74%);
+    text-align: center;
+    padding: 50px;
+}
+.img-m {
+    position: relative;
+    left: 60px;
+    top: 45px;
+}
+@media screen and (max-width: 600px){
+    .description-m, .ingredients-m, .steps-m{
+        width: 100%;
+    }
 }
