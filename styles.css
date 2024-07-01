@@ -170,3 +170,54 @@ body {
         width: 100%;
     }
 }
+/* This message defines the border of the omelette CSS */
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+.omelette-body {
+    background-color:oldlace;
+}
+.om-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 50vh;
+    text-align: center;
+    background-color: rgba(100, 40, 20, 0.2);
+    border-radius: 30px;
+}
+.om-h3 {
+    background-color: rgb(141, 133, 137);
+    color: black;
+    border-radius: 20px;
+    padding: 3px;
+    margin-top: 10px;
+    margin-inline: auto;
+    text-align: center;
+    display: inline-table;
+    margin-left: 25%;
+    font-weight: normal;
+    border-style: groove;
+}
+.om-p, .ing-om, .steps-om, .steps-2-om {
+    border-style:ridge;
+    margin: 0;
+}
+.om-p {
+    display:inline-block;
+}
+.ing-om {
+    border-color: grey;
+    display:table;
+    margin-bottom: 20px;
+}
+.steps-om {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.steps-2-om {
+    display:table;
+    border-color: gray;
+}
